@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1200, 800);
+  var canvas = createCanvas(750, 750);
   
   database = firebase.database();
   fedTime = database.ref("feedTime");
